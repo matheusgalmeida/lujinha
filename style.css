@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', arial, helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#sessao-venda {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#itens_section {
+    height: 900px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 1vh;
+}
+
+.item-box {
+    height: 45vh;
+    width: 15vw;
+    padding: 1%;
+    border: solid 1px #0063f8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.item-box > h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.item-box .item-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-box .item-title > img {
+    height: 100%;
+    width: 100%;
+}
+
+.item-box .item-title > h1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
